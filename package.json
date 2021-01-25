@@ -4,13 +4,14 @@
   "description": "Realtime notification",
   "main": "server.js",
   "scripts": {
-    "start" : "node server",
-    "dev" : "nodemon server",
+    "start": "node server",
+    "dev": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yuan Wang",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "socket.io": "^3.1.0"
   },
